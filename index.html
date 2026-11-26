@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foraging Dad — Tennessee Wild Food</title>
+  <meta name="description" content="What’s wild right now in East Tennessee. Seasonal foraging notes, recipes, and traditional processing from Foraging Dad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&amp;family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body class="home">
+  <a class="skip" href="#whats-wild">Skip to what’s wild right now</a>
+
+  <header class="brand-bar">
+    <img class="badge" src="images/logo-badge.png" width="160" height="160" alt="Foraging Dad temporary logo: a chanterelle, oak leaf, and pawpaws in a circular badge">
+    <p class="wordmark">Foraging Dad</p>
+    <p class="brand-tag">Tennessee Wild Food</p>
+  </header>
+
+  <section class="season-hero" style="background-image: url('images/hero-smokies.jpg');" aria-labelledby="wild-now-title">
+    <div class="season-hero-inner">
+      <h1 id="wild-now-title" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Foraging Dad — What’s wild right now</h1>
+      <h2>What’s Wild Right Now</h2>
+      <div class="flourish" aria-hidden="true">
+        <svg viewBox="0 0 80 16" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 11c10-10 18-10 36 0 18-10 26-10 36 0"/><path d="M40 4v8"/></svg>
+      </div>
+      <div class="season-tabs" role="tablist" aria-label="Season">
+        <button type="button" role="tab" id="tab-spring" data-season="spring" aria-controls="panel-spring" aria-selected="false" tabindex="-1">Spring</button>
+        <button type="button" role="tab" id="tab-summer" data-season="summer" aria-controls="panel-summer" aria-selected="false" tabindex="-1">Summer</button>
+        <button type="button" role="tab" id="tab-fall" data-season="fall" aria-controls="panel-fall" aria-selected="true" tabindex="0">Fall</button>
+        <button type="button" role="tab" id="tab-winter" data-season="winter" aria-controls="panel-winter" aria-selected="false" tabindex="-1">Winter</button>
+      </div>
+    </div>
+    <a class="hero-credit" href="credits.html">Photo: Mark Collins, CC BY 2.0 · Great Smoky Mountains</a>
+  </section>
+
+  <nav class="icon-menu" aria-label="Main">
+    <ul>
+      <li>
+        <a href="recipes.html">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 18h20v2c0 5-4 8-10 8s-10-3-10-8v-2z"/><path d="M9 18c0-6 3-12 7-14 4 2 7 8 7 14"/><path d="M12 10c1.2 1.5 2.8 2 4 2s2.8-.5 4-2"/></svg>
+          <span class="label">Recipes</span>
+          <svg class="chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="processing.html">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 14h18l-1.5 10H8.5L7 14z"/><path d="M10 14V11a6 6 0 0 1 12 0v3"/><path d="M12 18h8"/></svg>
+          <span class="label">Processing Wild Foods</span>
+          <svg class="chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="find.html">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="14" cy="14" r="7"/><path d="M19.5 19.5 26 26"/><path d="M14 10c.6-2 2.4-3.4 4.4-3.6"/></svg>
+          <span class="label">How to Find Them</span>
+          <svg class="chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28V14"/><path d="M16 16c-4-6-8-8-11-9 2 6 6 9 11 11"/><path d="M16 15c4-6 8-8 11-9-2 6-6 9-11 11"/><path d="M6 28h20"/></svg>
+          <span class="label">About</span>
+          <svg class="chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="whats-wild" class="serving-now">
+    <div class="serving-now-inner">
+      <p class="kicker" id="season-label">Fall Foraging in Tennessee</p>
+      <h2>What Nature’s Serving Now</h2>
+
+      <div class="forage-grid" id="panel-spring" role="tabpanel" aria-labelledby="tab-spring" hidden>
+      <article class="forage-card">
+        <div class="media"><img src="images/ramps.jpg" alt="A dense spring stand of ramps, or wild leeks, covering a woodland floor"></div>
+        <div class="body">
+          <h3>Ramps</h3>
+          <p class="blurb">The wild leek of Appalachian coves — take leaves, leave the patch.</p>
+        <a class="gold-btn" href="find.html#ramps"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#pickling"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#ramp-butter"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/morels.jpg" alt="A yellow morel mushroom growing from mossy ground"></div>
+        <div class="body">
+          <h3>Morels</h3>
+          <p class="blurb">A short spring hunt. Split them lengthwise, and cook them through.</p>
+        <a class="gold-btn" href="find.html#morels"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#drying"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#skillet-morels"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/violets.jpg" alt="Common blue violets blooming in a grassy patch"></div>
+        <div class="body">
+          <h3>Violets</h3>
+          <p class="blurb">Familiar spring flowers and young leaves for a careful kitchen.</p>
+        <a class="gold-btn" href="find.html#violets"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#violets"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#violet-greens"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/wild-garlic.jpg" alt="Field garlic, a wild onion, showing a rounded seed head and slender leaves"></div>
+        <div class="body">
+          <h3>Wild onion</h3>
+          <p class="blurb">The onion-smell rule starts here. If it does not smell like onion, leave it.</p>
+        <a class="gold-btn" href="find.html#wild-garlic"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#vinegars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#wild-onion-butter"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      </div>
+      <div class="forage-grid" id="panel-summer" role="tabpanel" aria-labelledby="tab-summer" hidden>
+      <article class="forage-card">
+        <div class="media"><img src="images/chanterelles.jpg" alt="Golden chanterelle mushrooms showing blunt, forked ridges"></div>
+        <div class="body">
+          <h3>Chanterelles</h3>
+          <p class="blurb">Buttery, aromatic, and worth waiting for after a summer rain.</p>
+        <a class="gold-btn" href="find.html#chanterelles"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#drying"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#chanterelles-skillet"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/blackberries.jpg" alt="A close view of ripe, dull-black wild blackberries"></div>
+        <div class="body">
+          <h3>Blackberries</h3>
+          <p class="blurb">Fencerow fruit of early Tennessee summer, best picked fully ripe.</p>
+        <a class="gold-btn" href="find.html#blackberries"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#preserves"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#blackberry-crisp"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/chicken-of-the-woods.jpg" alt="Bright orange and yellow chicken of the woods shelves growing from a tree"></div>
+        <div class="body">
+          <h3>Chicken of the woods</h3>
+          <p class="blurb">Young, tender edges, thoroughly cooked — and a small first taste.</p>
+        <a class="gold-btn" href="find.html#chicken-of-the-woods"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#drying"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#chicken-of-the-woods"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      </div>
+      <div class="forage-grid is-active" id="panel-fall" role="tabpanel" aria-labelledby="tab-fall">
+      <article class="forage-card">
+        <div class="media"><img src="images/pawpaw.jpg" alt="A ripe pawpaw cut in half, showing golden pulp and large seeds"></div>
+        <div class="body">
+          <h3>Pawpaws</h3>
+          <p class="blurb">Tennessee’s short-season custard fruit. Eat it when it’s soft and fragrant.</p>
+        <a class="gold-btn" href="find.html#pawpaw"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#preserves"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#pawpaw-pudding"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/black-walnuts.jpg" alt="Two hulled black walnuts showing deeply furrowed shells"></div>
+        <div class="body">
+          <h3>Black walnuts</h3>
+          <p class="blurb">Earthy, rich, and worth the staining husks and the long cure.</p>
+        <a class="gold-btn" href="find.html#black-walnuts"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#nuts"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#black-walnut-cookies"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/persimmons.jpg" alt="A ripe orange American persimmon hanging among yellow autumn leaves"></div>
+        <div class="body">
+          <h3>Persimmons</h3>
+          <p class="blurb">Sweet only when fully soft. An unripe one will pucker your mouth.</p>
+        <a class="gold-btn" href="find.html#persimmons"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#persimmons"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#persimmon-pudding"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/hickory-nuts.jpg" alt="A shagbark hickory nut in a splitting four-valved husk"></div>
+        <div class="body">
+          <h3>Hickory nuts</h3>
+          <p class="blurb">A traditional Appalachian nut. Learn the sweet species from the bitter.</p>
+        <a class="gold-btn" href="find.html#hickory-nuts"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#nuts"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#hickory-nuts"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/hen-of-the-woods.jpg" alt="A clustered hen of the woods mushroom growing at the base of a tree"></div>
+        <div class="body">
+          <h3>Hen of the woods</h3>
+          <p class="blurb">A fall rosette at the foot of oak. Cook it through, like any wild mushroom.</p>
+        <a class="gold-btn" href="find.html#hen-of-the-woods"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#drying"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#hen-of-the-woods"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      </div>
+      <div class="forage-grid" id="panel-winter" role="tabpanel" aria-labelledby="tab-winter" hidden>
+      <article class="forage-card">
+        <div class="media"><img src="images/chickweed.jpg" alt="Common chickweed with small white, deeply notched flowers and opposite leaves"></div>
+        <div class="body">
+          <h3>Chickweed</h3>
+          <p class="blurb">A mild winter green that can come back after a freeze.</p>
+        <a class="gold-btn" href="find.html#chickweed"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#fresh-greens"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#chickweed-salad"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/wild-garlic.jpg" alt="Field garlic, a wild onion that stays green through a mild Tennessee winter"></div>
+        <div class="body">
+          <h3>Wild garlic</h3>
+          <p class="blurb">One of the few wild flavors still standing after frost.</p>
+        <a class="gold-btn" href="find.html#wild-garlic"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#vinegars"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#wild-onion-butter"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/acorns.jpg" alt="White oak acorns and caps on the ground among leaves and stones"></div>
+        <div class="body">
+          <h3>Acorns, stored</h3>
+          <p class="blurb">A winter pantry food, after a proper leach. Not something to eat raw.</p>
+        <a class="gold-btn" href="find.html#acorns"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#acorns"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#acorn-meal"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      <article class="forage-card">
+        <div class="media"><img src="images/oysters.jpg" alt="A cluster of pale oyster mushrooms growing from a hardwood log"></div>
+        <div class="body">
+          <h3>Oyster mushrooms</h3>
+          <p class="blurb">Cool-weather shelves on dead wood, after rain, and always cooked through.</p>
+        <a class="gold-btn" href="find.html#oysters"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to find them</a>
+        <a class="gold-btn" href="processing.html#drying"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12c4-1 7-4 8-9-5 1-8 4-8 9z"/><path d="M4 12c2-2 4-3 7-4"/></svg> How to process it</a>
+        <a class="gold-btn" href="recipes.html#oyster-mushrooms"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7h10l-1 6H4L3 7z"/><path d="M5 7V5.5a3 3 0 0 1 6 0V7"/></svg> Recipes</a>
+        </div>
+      </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="home-footer">
+    <p class="motto">Respect the land. Know your forage. Share the harvest.</p>
+    <p class="tagline">Foraging Dad is a resource for wild food education in Tennessee.</p>
+    <p class="mini-links">
+      <a href="safety.html">Safety &amp; ethics</a>
+      <a href="credits.html">Photo credits</a>
+      <a href="about.html#contact">Contact</a>
+    </p>
+  </footer>
+  <script src="js/seasons.js"></script>
+</body>
+</html>
