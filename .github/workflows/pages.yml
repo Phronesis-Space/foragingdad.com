@@ -27,6 +27,8 @@ jobs:
         run: |
           rm -rf image-data scripts .github
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
