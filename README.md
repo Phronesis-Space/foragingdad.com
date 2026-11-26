@@ -9,3 +9,10 @@ Until DNS is pointed at GitHub, the preview URL is:
 https://phronesis-space.github.io/foragingdad.com/
 
 See `README.txt` in this folder for page list and placeholders.
+
+Photographs are stored as base64 text in `image-data/` so they can be committed
+through GitHub's text-file API. After cloning, restore them with:
+
+    python3 scripts/decode_images.py
+
+GitHub Pages does this automatically on each deploy.
